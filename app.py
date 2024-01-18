@@ -2,7 +2,7 @@ import logging
 
 import streamlit as st
 
-from constants import CONFIG
+from src.constants import CONFIG
 
 # Configure root logger to capture only WARN or higher level logs
 logging.basicConfig(
