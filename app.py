@@ -1,8 +1,11 @@
 import logging
 
+from dotenv import load_dotenv
 import streamlit as st
 
 from src.constants import CONFIG
+
+load_dotenv()
 
 # Configure root logger to capture only WARN or higher level logs
 logging.basicConfig(
